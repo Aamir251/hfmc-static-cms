@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutText": {
+      "type": "richtext"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "founder": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.founder"
+    }
+  }
+}

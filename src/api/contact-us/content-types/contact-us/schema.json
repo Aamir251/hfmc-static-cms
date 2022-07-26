@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_uses",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uses",
+    "displayName": "contactUs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "contact": {
+      "displayName": "contacts",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.contacts"
+    },
+    "socials": {
+      "displayName": "socials",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.socials"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_socials",
+  "info": {
+    "displayName": "socials",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "heading": {
+      "type": "string"
+    },
+    "socialIcons": {
+      "displayName": "imageLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-link"
+    }
+  }
+}

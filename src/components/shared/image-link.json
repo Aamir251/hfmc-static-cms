@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_image_links",
+  "info": {
+    "displayName": "imageLink",
+    "icon": "broadcast-tower"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

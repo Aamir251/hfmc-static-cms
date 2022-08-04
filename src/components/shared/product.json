@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_products",
+  "info": {
+    "displayName": "product",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "originalPrice": {
+      "type": "biginteger"
+    },
+    "sellingPrice": {
+      "type": "biginteger"
+    }
+  }
+}

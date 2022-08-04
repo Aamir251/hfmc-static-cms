@@ -4,18 +4,35 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "product"
+    "displayName": "product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "products": {
-      "displayName": "product",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.product"
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "originalPrice": {
+      "type": "biginteger"
+    },
+    "sellingPrice": {
+      "type": "biginteger"
     }
   }
 }

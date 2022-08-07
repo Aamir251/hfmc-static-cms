@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_addresses",
+  "info": {
+    "displayName": "address"
+  },
+  "options": {},
+  "attributes": {
+    "houseNumber": {
+      "type": "string"
+    },
+    "streetName": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    }
+  }
+}

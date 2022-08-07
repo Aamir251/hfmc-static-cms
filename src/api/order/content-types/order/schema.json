@@ -24,17 +24,12 @@
     "email": {
       "type": "string"
     },
-    "houseNumber": {
-      "type": "string"
-    },
-    "streetName": {
-      "type": "string"
-    },
-    "city": {
-      "type": "string"
-    },
-    "state": {
-      "type": "string"
+    "address": {
+      "displayName": "address",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.address"
     }
+    
   }
 }

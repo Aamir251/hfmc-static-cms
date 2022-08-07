@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dropdowns",
+  "info": {
+    "singularName": "dropdown",
+    "pluralName": "dropdowns",
+    "displayName": "dropdown"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "isDropdown": {
+      "type": "boolean"
+    },
+    "links": {
+      "displayName": "dropdowns",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.dropdowns"
+    }
+  }
+}

@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "productId": {
-      "type": "string"
+      "type": "biginteger"
     },
     "productName": {
       "type": "string"

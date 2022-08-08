@@ -36,7 +36,7 @@
       "component": "shared.order-items"
     },
     "totalPrice": {
-      "type": "string"
+      "type": "biginteger"
     }
   }
 }

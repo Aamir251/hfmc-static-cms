@@ -4,13 +4,17 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "order"
+    "displayName": "order",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "orderId": {
+      "type": "string"
+    },
     "userName": {
       "type": "string"
     },
@@ -34,5 +38,6 @@
     "totalPrice": {
       "type": "string"
     }
+    
   }
 }

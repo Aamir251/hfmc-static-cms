@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "orderId": {
-      "type": "string"
+      "type": "biginteger"
     },
     "userName": {
       "type": "string"
@@ -38,6 +38,5 @@
     "totalPrice": {
       "type": "string"
     }
-    
   }
 }

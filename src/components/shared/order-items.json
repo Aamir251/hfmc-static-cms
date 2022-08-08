@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_order_items",
+  "info": {
+    "displayName": "orderItems",
+    "icon": "first-aid"
+  },
+  "options": {},
+  "attributes": {
+    "productId": {
+      "type": "string"
+    },
+    "productName": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "sellingPrice": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "last_orders",
+  "info": {
+    "singularName": "last-order",
+    "pluralName": "last-orders",
+    "displayName": "last-order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orderId": {
+      "type": "biginteger"
+    }
+  }
+}

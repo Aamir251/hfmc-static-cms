@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_success_texts",
+  "info": {
+    "singularName": "order-success-text",
+    "pluralName": "order-success-texts",
+    "displayName": "order-success-text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

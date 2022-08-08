@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "orders",
+  "collectionName": "interested_orders",
   "info": {
-    "singularName": "order",
-    "pluralName": "orders",
-    "displayName": "order",
-    "description": ""
+    "singularName": "interested-order",
+    "pluralName": "interested-orders",
+    "displayName": "interested-order"
   },
   "options": {
     "draftAndPublish": true
@@ -25,11 +24,9 @@
       "type": "string"
     },
     "address": {
-      "displayName": "address",
       "type": "component",
       "repeatable": false,
       "component": "shared.address"
     }
-    
   }
 }
